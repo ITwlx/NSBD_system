@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.shadow {
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1)
+}
+
+.el-menu {
+  background-color: #212936 !important;
+}
+.el-submenu__title, .el-menu-item {
+  color: #afbdcd !important;
+}
+.el-submenu__title:focus, .el-submenu__title:hover {
+  color: #64b9fc !important;
+  background-color: transparent !important;
+}
+.el-menu-item:focus, .el-menu-item:hover {
+  color: #64b9fc !important;
+  background-color: transparent !important;
+}
+
+.date-picker-transparent{
+  color: #64b9fc !important;
+  background-color: rgba(255,255,255,0.9) !important;
+}

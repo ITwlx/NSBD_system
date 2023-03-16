@@ -1,0 +1,54 @@
+{
+  "name": "hs_water_new",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --open --hot",
+    "build": "vue-cli-service build",
+    "build:test": "vue-cli-service build --mode test",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "core-js": "^3.19.3",
+    "dayjs": "^1.11.0",
+    "echarts": "^5.2.1",
+    "echarts-wordcloud": "^2.0.0",
+    "element-ui": "^2.11.1",
+    "js2wordcloud": "^1.1.12",
+    "qs": "^6.11.0",
+    "vue": "^2.5.2",
+    "vue-router": "^2.8.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.4",
+    "@vue/cli-plugin-babel": "^4.5.15",
+    "@vue/cli-plugin-eslint": "^4.5.15",
+    "@vue/cli-service": "^4.5.15",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-component": "^1.1.1",
+    "eslint": "^6.8.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
